@@ -6,13 +6,12 @@ import TDMA as tdma
 
 def main():
     """
-    以下pe~dxまで変更する
+    L11-18まで変更可
     """
-
-    phi2 = 50.0     #チーレ数
+    phi2 = 200.0     #チーレ数
     N = 100         #計算点の数
     dt = 0.01       #Δt
-    gamma = 0.1     #DB/DA
+    gamma = 0.8     #DB/DA
     theta = 10.0    #CB/CA
     eps = 1e-3      #収束判定指数
     t_max = 100     #計算を止める時刻
